@@ -1,5 +1,5 @@
 /* ===== EDIT THESE FOUR VALUES ===== */
-const PAYMENT_URL   = " https://rzp.io/rzp/ILaevUv6";   // your payment gateway link, e.g. "https://pay.example.com/abc123"
+const PAYMENT_URL   = "https://rzp.io/rzp/ILaevUv6";   // your payment gateway link, e.g. "https://pay.example.com/abc123"
 const PRICE         = "499";         // e.g. "₹499"
 const DOWNLOAD_URL  = "The_Complete_Fresh_Graduate_Career_Bundle Book.pdf";  // full eBook link, e.g. "https://.../ebook.pdf" (or "ebook.pdf" if uploaded next to this page)
 const CONTACT_EMAIL = "tirnamazumder2003@gmail.com"; // support email (thank-you page)
