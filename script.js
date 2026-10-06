@@ -6,7 +6,7 @@ const CONTACT_EMAIL = "tirnamazumder2003@gmail.com"; // support email (thank-you
 /* ================================== */
 function wire(sel, url, name, newTab){
   document.querySelectorAll(sel).forEach(a => {
-    if (url.includes("_HERE")) {            // placeholder not replaced yet
+    if (url === "PAYMENT_URL_HERE" || url === "DOWNLOAD_URL_HERE")        // placeholder not replaced yet
       a.href = "#";
       a.addEventListener("click", e => { e.preventDefault(); alert("Set " + name + " in script.js first (it still says " + url + ")."); });
       return;
